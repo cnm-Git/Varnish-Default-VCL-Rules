@@ -4,7 +4,7 @@ import std;
 import directors;
 
 backend server1 { # Define one backend
-  .host = "67.225.208.102";    # IP or Hostname of backend
+  .host = "127.0.0.1";    # IP or Hostname of backend
   .port = "8080";           # Port Nginx or whatever is listening
   .max_connections = 300; # That's it
 
