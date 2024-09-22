@@ -32,7 +32,6 @@ acl purge {
   # ACL we'll use later to allow purges
   "localhost";
   "127.0.0.1";
-  "67.225.208.102";
   "::1";
 }
 
